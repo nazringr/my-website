@@ -18,8 +18,8 @@ try {
   $mail->CharSet = "UTF-8";
   $mail->SMTPAuth   = true;
 
-  $mail->Host       = 'smtp.example.com';                     //Set the SMTP server to send through
-  $mail->Username   = 'user@example.com';                     //SMTP username
+  $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+  $mail->Username   = 'nazringr@gmail.com';                     //SMTP username
   $mail->Password   = 'secret';                               //SMTP password
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
